@@ -4,5 +4,6 @@ buttons.forEach(button => {
   button.addEventListener('click', () => {
     const square = button.parentElement;
     square.style.height = '0';
+    button.style.display = "none";
   });
 });
