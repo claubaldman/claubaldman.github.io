@@ -31,27 +31,30 @@ body {
 }
 
 .overlay > div > button {
-
-
+  display: flex;
   font-size: 18px;
   padding: 20px 40px;
   border: none;
   background-color: #fff;
   color: #000;
   cursor: pointer;
+  transform: rotate(360deg);
 
 }
 
 .overlay > div:first-child {
   background-color: #F252D8;
+  transition: all 0.5s ease-in-out;
 }
 
 .overlay > div:nth-child(2) {
   background-color: #27F2DE;
+  transition: all 0.5s ease-in-out;
 }
 
 .overlay > div:last-child {
   background-color: #58F252;
+  transition: all 0.5s ease-in-out;
 }
 
 #welcome-overlay {
