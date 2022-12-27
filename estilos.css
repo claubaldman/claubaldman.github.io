@@ -31,6 +31,8 @@ body {
 }
 
 .overlay > div > button {
+
+
   font-size: 18px;
   padding: 20px 40px;
   border: none;
@@ -38,13 +40,6 @@ body {
   color: #000;
   cursor: pointer;
 
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  border-radius: 4px;
 }
 
 .overlay > div:first-child {
@@ -57,6 +52,24 @@ body {
 
 .overlay > div:last-child {
   background-color: #58F252;
+}
+
+#welcome-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: blue;
+  z-index: 999;
+}
+
+#welcome-overlay p {
+  color: white;
+  font-size: 24px;
+  text-align: center;
+  margin: 0;
+  padding: 20px;
 }
 
 /* Estilos para dispositivos móviles */
