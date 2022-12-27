@@ -35,44 +35,58 @@ body {
   font-size: 18px;
   padding: 20px 40px;
   border: none;
-  background-color: #fff;
-  color: #000;
+  background-color: #4caf50;
+  color: white;
   cursor: pointer;
   transform: rotate(360deg);
+  border-radius: 30px;
 
 }
 
 .overlay > div:first-child {
-  background-color: #F252D8;
+  background-color: #F2BF27;
   transition: all 0.5s ease-in-out;
 }
 
 .overlay > div:nth-child(2) {
-  background-color: #27F2DE;
+  background-color: #1ED9D9;
   transition: all 0.5s ease-in-out;
 }
 
 .overlay > div:last-child {
-  background-color: #58F252;
+  background-color: #37D91E;
   transition: all 0.5s ease-in-out;
 }
 
-#welcome-overlay {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: blue;
-  z-index: 999;
+.open-button {
+  display: flex;
+  font-size: 18px;
+  padding: 20px 40px;
+  border: none;
+  background-color: #4caf50;
+  color: white;
+  cursor: pointer;
+  transform: rotate(360deg);
+  border-radius: 30px;
+
 }
 
-#welcome-overlay p {
-  color: white;
-  font-size: 24px;
-  text-align: center;
-  margin: 0;
-  padding: 20px;
+.otro{
+  margin-bottom: 10px;
+  color: #4caf50;
+  
+}
+
+.closed {
+  display: flex;
+ 
+  border: none;
+  cursor: pointer;
+  border-radius: 20px;
+
+  width: 50%;
+  flex-direction: column;
+  align-items: center;
 }
 
 /* Estilos para dispositivos móviles */
